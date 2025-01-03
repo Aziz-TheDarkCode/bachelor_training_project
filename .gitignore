@@ -1,0 +1,65 @@
+# Global ignores for all project types
+
+# IDE and Editor Settings
+/.idea/              # JetBrains IDEs (e.g., IntelliJ IDEA, PhpStorm)
+/.vscode/             # VS Code
+*.iml                # IntelliJ project files
+
+# OS-specific files
+.DS_Store            # macOS system files
+Thumbs.db            # Windows system files
+desktop.ini          # Windows system files
+
+# Logs
+*.log
+
+# Temporary files and directories
+*.swp
+*.bak
+*.tmp
+*.swp
+
+# Dependency directories for different project types
+/node_modules/       # Node.js (React projects)
+/vendor/             # PHP (Composer dependencies)
+/target/             # Java (Maven build folder)
+/build/              # React or JavaScript build folder
+/dist/               # React or JavaScript build folder
+
+# Environment files
+/.env                # PHP, React, and other environments
+/.env.local          # Local environment overrides
+
+# Composer files (PHP)
+/composer.lock       # Composer lock file
+/composer.phar       # Composer binary
+
+# Symfony or other framework-specific folders (PHP)
+var/                 # Symfony var directory (cache, logs, sessions, etc.)
+tmp/                 # Temporary files
+
+# PHPUnit cache (PHP)
+phpunit.result.cache
+
+# React-specific files
+/.eslintcache        # ESLint cache
+/.prettiercache      # Prettier cache
+/.next/              # Next.js build folder
+yarn-error.log       # Yarn error log
+npm-debug.log        # NPM debug log
+
+# Java build and output files
+*.class              # Compiled Java classes
+*.jar                # Java archive files
+*.war                # Web application archive files
+*.ear                # Enterprise archive files
+
+# Maven wrapper files (Java)
+/.mvn/               # Maven wrapper and settings
+
+# Other common ignores
+*.tgz                # Package tarballs
+*.zip                # ZIP archives
+*.tar                # TAR archives
+*.bak                # Backup files
+

@@ -1,0 +1,14 @@
+{
+    "require": {
+        "doctrine/orm": "^2.11",
+        "jenssegers/blade": "^1.4",
+        "symfony/cache": "^5.4",
+        "doctrine/annotations": "^1.13"
+    },
+    "autoload": {
+              "files": ["app/helper.php"],  
+      "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
